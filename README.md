@@ -16,6 +16,9 @@ As we know that prediction requires high computational power. It is not possible
 
 # How to run the project
 1. Clone the repository.
+```bash
+git clone https://github.com/bhavaysavaliya/Dogs_Care_and_Education.git
+```
 </br>
 
 2. Open the terminal and go to the directory where the repository is cloned.
