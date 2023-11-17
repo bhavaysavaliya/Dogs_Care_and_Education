@@ -1,0 +1,8 @@
+datetime
+flask
+flask_cors
+numpy
+pillow
+flask_pymongo
+python-dotenv
+requests
