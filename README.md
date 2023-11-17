@@ -19,6 +19,9 @@ As we know that prediction requires high computational power. It is not possible
 </br>
 
 2. Open the terminal and go to the directory where the repository is cloned.
+```bash
+cd Dogs_Care_and_Education
+```
 </br>
 
 3. Make sure you have installed docker in your system. If not, then install it.
