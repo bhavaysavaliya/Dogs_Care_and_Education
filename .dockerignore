@@ -2,3 +2,5 @@ Dockerfile
 .dockerignore
 docker-compose.yaml
 models
+.gitattributes
+README.md
