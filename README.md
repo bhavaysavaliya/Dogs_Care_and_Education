@@ -11,6 +11,11 @@ and then return details about dog's breed. This project is deployed using Docker
 # Working 
 The frontend is created using HTML, CSS and JavaScript. The backend is created using Flask. Through frontend, user can upload image of dog and then the backend will perform prediction and return the result. 
 
+# Requirements to run on your system
+1. Docker
+2. Internet Data (max 2GB)
+3. 8GB RAM
+
 # Idea of using tensorflow serving
 As we know that prediction requires high computational power. It is not possible to perform prediction on the same machine where the frontend is running as it requires high computational power. So, we need to use tensorflow serving to speed up prediction process. So, we will use tensorflow serving to perform prediction. 
 
