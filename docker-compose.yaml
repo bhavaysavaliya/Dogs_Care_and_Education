@@ -20,11 +20,20 @@ services:
       MONGO_URI: mongodb://mongodb:27017
       MONGO_DBNAME: test
       PREDICT_URL: http://tensorflow-serving:8501
-
-  
     depends_on:
       - mongodb
       - tensorflow-serving
 
+  # to verify that prediction entry is saved in database (optional)
+  # ________________________________________________________
+  mongo-express:
+    image: mongo-express
+    restart: always
+    ports:
+      - 8081:8081
+    environment:
+      ME_CONFIG_MONGODB_URL: mongodb://mongodb:27017/
+  # ________________________________________________________
+  
 volumes:
   mongo_db: {}

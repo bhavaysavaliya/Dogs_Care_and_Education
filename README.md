@@ -41,19 +41,19 @@ docker compose up --build
 ```
 </br>
 
-5. After the image is built, open the browser and go to the following link:
-```bash
-http://localhost:5000/
-```
+5. After the image is built, open the browser and go to [http://localhost:5000/](http://localhost:5000/).
 </br>
 
 6. Now, you can upload the image of dog and then click on predict button to get the result.
 </br>
 
-7. To stop the docker, run the following command:
+7. After predicting you can view entry in database by visiting url [http://localhost:8501/](http://localhost:8501/). Here, mongo express will be running. Give username as "admin" and password as "pass". Then go to "test" database and select "result" collection. You will see the saved entry.
+<br/>
+
+8. Before exiting, stop execution by clicking Ctrl + C, then run the following command:
 ```bash
 docker compose down
 ```
 
 # About model
-Model is trained using transfer learning on Resnet_50 architecture. The model is trained on 8 breeds of dogs. The model is trained on 10 epochs and the accuracy is 98%. The model is trained on Google Colab.
+Model is trained using transfer learning on Resnet_50 architecture. The model is trained on 8 breeds of dogs. The model is trained by 10 epochs and the accuracy is 98%. The model is trained on Google Colab.
